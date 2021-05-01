@@ -213,6 +213,11 @@ body {
     text-decoration-color: #03AE85;
 }
 
+.orange {
+    color: #F0C7A9;
+    text-decoration-color: #F0C7A9;
+}
+
 /* color and style of button */
 .purple .button {
     padding: 9px 10px;
