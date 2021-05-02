@@ -442,10 +442,6 @@ input[type=submit]:hover {
     padding-bottom: 15px;
 }
 
-#nav-selected{
-    color:#E37575;
-}
-
 
 /* mouse over navbar */
 .navigation a:hover{
