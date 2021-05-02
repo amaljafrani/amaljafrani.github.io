@@ -122,16 +122,20 @@ body {
     margin-right: 10%;
 }
 
+
 .container-skills .heading-1 {
-    font-size: 58px;
+    /* font-size: 58px; */
     font-weight: 200;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     margin-top: 65px;
+
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .container-skills .heading-2 {
     margin-bottom: 16px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 38px;
     font-weight: 500;
     letter-spacing: 4px;
