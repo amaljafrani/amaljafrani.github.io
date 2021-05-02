@@ -22,7 +22,8 @@ body {
 }
 
 /* text on home page */
-.header-container h1 {
+
+.header-container #intro {
     color: #000000;
     font-size: 55px;
     font-weight: 400;
@@ -30,7 +31,7 @@ body {
     margin: 0
 }
 
-.header-container h2 {
+.header-container #intro_1 {
     color: #ffffff;
     -webkit-text-stroke: 1px black;
     font-size: 45px;
@@ -38,6 +39,7 @@ body {
     display:inline-block;
     margin: 0
 }
+
 
 /* hover over amal */
 .header-container h2:hover {
