@@ -242,6 +242,13 @@ body {
     margin-right: 0;
 }
 
+.orange-background {
+    background-color: #f3ece7be;
+    padding-top: 2%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /* large number */
 .purple-background em{
     color: #525496;
@@ -254,6 +261,15 @@ body {
 
 .green-background em{
     color: #D3C4F4;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 175%;
+}
+
+.orange-background em{
+    /* color: #E3B28F; */
+    color: #61A0AF;
     font-size: 55px;
     font-weight: 800;
     letter-spacing: 5px;
