@@ -22,8 +22,7 @@ body {
 }
 
 /* text on home page */
-
-.hi {
+.header-container h1 {
     color: #000000;
     font-size: 55px;
     font-weight: 400;
@@ -31,7 +30,8 @@ body {
     margin: 0
 }
 
-.name {
+
+.header-container h2 {
     color: #ffffff;
     -webkit-text-stroke: 1px black;
     font-size: 45px;
@@ -40,9 +40,8 @@ body {
     margin: 0
 }
 
-
 /* hover over amal */
-.name:hover {
+.header-container h2:hover {
     -webkit-text-stroke: 1px #E37575;
     background-color: #F7D7D7;
 }
