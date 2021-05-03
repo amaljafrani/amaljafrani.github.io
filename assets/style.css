@@ -22,7 +22,15 @@ body {
 }
 
 /* text on home page */
-.header-container h1 {
+/* .header-container h1 {
+    color: #000000;
+    font-size: 55px;
+    font-weight: 400;
+    display:inline-block;
+    margin: 0
+} */
+
+#intro {
     color: #000000;
     font-size: 55px;
     font-weight: 400;
