@@ -122,15 +122,18 @@ body {
     margin-right: 10%;
 }
 
-
-.container-skills .heading-1 {
-    /* font-size: 58px; */
+.container-skills .heading {
     font-weight: 200;
-    /* margin-bottom: 5px; */
     margin-top: 65px;
-
     font-size: 30px;
     margin-bottom: 30px;
+}
+
+.container-skills .heading-1 {
+    font-size: 58px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    margin-top: 65px;
 }
 
 .container-skills .heading-2 {
