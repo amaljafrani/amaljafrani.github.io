@@ -27,14 +27,14 @@ window.onload = function(){
 
 
 function fabHover() {
-    var img = document.getElementById("home-image")
+    var img = document.getElementById("home-image");
     var img1 = document.getElementById("home-image1");
-    img.src="assets/images/about/light.jpg"
-    img1.src="assets/images/about/lg.jpg"
-    img.alt="image of a lamp I fabricated with wood and acrylic"
-    img1.alt="image of a dress I sewed"
-    img.style.visibility="visible"
-    img1.style.visibility="visible"
+    img.src="assets/images/about/light.jpg";
+    img1.src="assets/images/about/lg.jpg";
+    img.alt="image of a lamp I fabricated with wood and acrylic";
+    img1.alt="image of a dress I sewed";
+    img.style.visibility="visible";
+    img1.style.visibility="visible";
     img.style.transform = "rotate(10deg)";
     img1.style.transform = "rotate(15deg)";
     img.style.width = "50%";
@@ -46,8 +46,10 @@ function fabHover() {
 function fabLeave() {
     var img = document.getElementById("home-image");
     var img1 = document.getElementById("home-image1");
-    img.style.visibility="hidden"
-    img1.style.visibility="hidden"
+    img.src="assets/images/about/white.png";
+    img1.src="assets/images/about/white.png";
+    img.style.visibility="hidden";
+    img1.style.visibility="hidden";
     img.style.transform = "rotate(0deg)";
     img1.style.transform = "rotate(0deg)";
   }
@@ -55,12 +57,12 @@ function fabLeave() {
 function vectorHover() {
     var img2 = document.getElementById("home-image");
     var img3 = document.getElementById("home-image1");
-    img2.src="assets/images/about/time.png"
-    img3.src="assets/images/about/elephant.png"
-    img2.alt="image of a drawing I made of an hourglass in the water"
-    img3.alt="image of a drawing I made of an abstract elephant"
-    img2.style.visibility="visible"
-    img3.style.visibility="visible"
+    img2.src="assets/images/about/time.png";
+    img3.src="assets/images/about/elephant.png";
+    img2.alt="image of a drawing I made of an hourglass in the water";
+    img3.alt="image of a drawing I made of an abstract elephant";
+    img2.style.visibility="visible";
+    img3.style.visibility="visible";
     img2.style.transform = "rotate(20deg)";
     img3.style.transform = "rotate(-5deg)";
     img2.style.width = "70%";
@@ -72,8 +74,10 @@ function vectorHover() {
 function vectorLeave() {
     var img2 = document.getElementById("home-image");
     var img3 = document.getElementById("home-image1");
-    img2.style.visibility="hidden"
-    img3.style.visibility="hidden"
+    img2.src="assets/images/about/white.png";
+    img3.src="assets/images/about/white.png";
+    img2.style.visibility="hidden";
+    img3.style.visibility="hidden";
     img2.style.transform = "rotate(0deg)";
     img3.style.transform = "rotate(0deg)";
   }
@@ -81,16 +85,17 @@ function vectorLeave() {
 
 function meHover() {
     var img4 = document.getElementById("home-image");
-    img4.src="assets/images/about/me.jpg"
-    img4.alt="image of me"
-    img4.style.visibility="visible"
+    img4.src="assets/images/about/me.jpg";
+    img4.alt="image of me";
+    img4.style.visibility="visible";
     img4.style.width = "80%";
     img4.style.height = "auto";
   }
 
 function meLeave() {
     var img4 = document.getElementById("home-image");
-    img4.style.visibility="hidden"
+    img4.src="assets/images/about/white.png";
+    img4.style.visibility="hidden";
   }
 
 
