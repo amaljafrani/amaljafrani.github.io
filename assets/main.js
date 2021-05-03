@@ -37,8 +37,8 @@ function fabHover() {
     img1.style.visibility="visible";
     img.style.transform = "rotate(10deg)";
     img1.style.transform = "rotate(15deg)";
-    img.style.width = "50%";
-    img1.style.width = "50%";
+    img.style.width = "55%";
+    img1.style.width = "55%";
     img.style.height = "auto";
     img1.style.height = "auto";
   }
