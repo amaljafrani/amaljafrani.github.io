@@ -100,7 +100,6 @@ body {
 /* images */
 
 #home-image, #home-image1{
-    /* visibility: hidden; */
     opacity:0;
     width:5%;
     height:auto;
