@@ -100,8 +100,10 @@ body {
 /* images */
 
 #home-image, #home-image1{
-    visibility: hidden;
+    /* visibility: hidden; */
     opacity:0;
+    width:5%;
+    height:auto;
     transition: transform 2s cubic-bezier(.23,1,.32,1), opacity 1s cubic-bezier(.23,1,.32,1);
 }
 

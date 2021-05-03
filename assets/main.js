@@ -30,11 +30,11 @@ function fabHover() {
     var img = document.getElementById("home-image");
     var img1 = document.getElementById("home-image1");
     img.src="assets/images/about/light.jpg";
-    img1.src="assets/images/about/lunar.jpg";
+    img1.src="assets/images/about/lunar.JPG";
     img.alt="image of a lamp I fabricated with wood and acrylic";
     img1.alt="image of a dress I sewed";
-    img.style.visibility="visible";
-    img1.style.visibility="visible";
+    // img.style.visibility="visible";
+    // img1.style.visibility="visible";
     img.style.opacity=1;
     img1.style.opacity=1;
     img.style.transform = "rotate(10deg)";
@@ -54,8 +54,8 @@ function fabLeave() {
     img1.style.opacity=0;
     img.style.transform = "rotate(0deg)";
     img1.style.transform = "rotate(0deg)";
-    img.style.visibility="hidden";
-    img1.style.visibility="hidden";
+    // img.style.visibility="hidden";
+    // img1.style.visibility="hidden";
   }
 
 function vectorHover() {
@@ -65,8 +65,8 @@ function vectorHover() {
     img3.src="assets/images/about/elephant.png";
     img2.alt="image of a drawing I made of an hourglass in the water";
     img3.alt="image of a drawing I made of an abstract elephant";
-    img2.style.visibility="visible";
-    img3.style.visibility="visible";
+    // img2.style.visibility="visible";
+    // img3.style.visibility="visible";
     img2.style.opacity=1;
     img3.style.opacity=1;
     img2.style.transform = "rotate(20deg)";
@@ -86,8 +86,8 @@ function vectorLeave() {
     img3.style.opacity=0;
     img2.style.transform = "rotate(0deg)";
     img3.style.transform = "rotate(0deg)";
-    img2.style.visibility="hidden";
-    img3.style.visibility="hidden";
+    // img2.style.visibility="hidden";
+    // img3.style.visibility="hidden";
   }
 
 
@@ -95,7 +95,7 @@ function meHover() {
     var img4 = document.getElementById("home-image");
     img4.src="assets/images/about/me.jpg";
     img4.alt="image of me";
-    img4.style.visibility="visible";
+    // img4.style.visibility="visible";
     img4.style.opacity=1;
     img4.style.width = "80%";
     img4.style.height = "auto";
@@ -108,7 +108,7 @@ function meLeave() {
     var img4 = document.getElementById("home-image");
     img4.src="assets/images/about/white.png";
     img4.style.opacity=0;
-    img4.style.visibility="hidden";
+    // img4.style.visibility="hidden";
   }
 
 
