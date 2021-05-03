@@ -29,8 +29,8 @@ window.onload = function(){
 function fabHover() {
     var img = document.getElementById("home-image");
     var img1 = document.getElementById("home-image1");
-    img.src="assets/images/about/light.jpg";
-    img1.src="assets/images/about/lg.jpg";
+    img.src="assets/images/about/lg.jpg";
+    img1.src="assets/images/about/light.jpg";
     img.alt="image of a lamp I fabricated with wood and acrylic";
     img1.alt="image of a dress I sewed";
     img.style.visibility="visible";
