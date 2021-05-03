@@ -100,7 +100,7 @@ function meHover() {
     img4.style.width = "80%";
     img4.style.height = "auto";
     var img5 = document.getElementById("home-image1");
-    img5.src="assets/images/about/white.jpg";
+    img5.src="assets/images/about/white.png";
     img5.alt="image of me";
   }
 
