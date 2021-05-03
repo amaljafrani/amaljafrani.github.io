@@ -37,8 +37,7 @@ body {
     display:inline-block;
     margin: 0
 }
-
-.header-container h2 {
+#intro_1 {
     color: #ffffff;
     -webkit-text-stroke: 1px black;
     font-size: 45px;
@@ -46,6 +45,15 @@ body {
     display:inline-block;
     margin: 0
 }
+/* 
+.header-container h2 {
+    color: #ffffff;
+    -webkit-text-stroke: 1px black;
+    font-size: 45px;
+    font-weight: 800;
+    display:inline-block;
+    margin: 0
+} */
 
 /* hover over amal */
 .header-container h2:hover {
