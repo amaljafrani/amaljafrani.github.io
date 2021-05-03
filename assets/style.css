@@ -101,7 +101,8 @@ body {
 
 #home-image, #home-image1{
     visibility: hidden;
-    transition: transform 2s cubic-bezier(.23,1,.32,1);
+    opacity:0;
+    transition: transform 2s cubic-bezier(.23,1,.32,1), opacity 1s cubic-bezier(.23,1,.32,1);
 }
 
 .image-container{
