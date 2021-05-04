@@ -209,9 +209,35 @@ body {
 
 /* ANIMATION ON WORKS */
 
-#work:hover{
+/* #work:hover{
     transform:scale(1.01,1.01);
     box-shadow: 0px 0px 20px 2px #E5E2E2;
+    animation: bounce 1s ease;
+} */
+
+#work:hover{
+    /* transform:scale(1.01,1.01); */
+    box-shadow: 0px 0px 20px 2px #E5E2E2;
+    animation: expand 1s ease forwards;
+}
+
+#work:hover #work-text{
+    animation: bounce 1s ease;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    10% {transform: translateY(0);}
+    20% {transform: translateY(0);}
+	40% {transform: translateY(-20px);}
+	60% {transform: translateY(0);}
+    80% {transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+}
+
+@keyframes expand {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.02);}
 }
 
 /* document.getElementById(name1).classList.add('animate__animated animate__pulse'); */
