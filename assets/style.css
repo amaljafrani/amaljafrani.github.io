@@ -267,7 +267,6 @@ body {
 /* color and style of button */
 .purple .button {
     padding: 9px 10px;
-    background-color: #525496;
     border-radius: 4px;
     margin: 100px 10px;
     text-align: center;
@@ -402,10 +401,78 @@ body {
 
 /* button style */
 
-.button a {
-    color: white;
+
+a {
+    position: relative;
+    padding: 10px 30px;
+    display: block;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+  
+a span {
+    position: relative;
+    color: #fff;
     font-size: 15px;
     font-weight:400;
+    z-index: 2;
+}
+
+  
+a .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #525496;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+  
+a .liquid::after,
+a .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-20%, -55%);
+    background: #eff0ff83;
+}
+  
+a .liquid::before {
+    
+    border-radius: 45%;
+    background: #eff0ff83;
+    animation: animate 5s linear infinite;
+}
+  
+a .liquid::after {
+    
+    border-radius: 40%;
+    background: #eff0ff83;
+    animation: animate 10s linear infinite;
+}
+  
+a:hover .liquid{
+    top: -120px;
+}
+
+a:hover{
+    text-decoration:none
+}
+  
+@keyframes animate {
+    0% {
+      transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -75%) rotate(360deg);
+    }
 }
 
 
