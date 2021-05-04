@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     innerMouse = document.getElementById('innerMouse');
   
     document.onmousemove = (e) => {posX = e.pageX, posY = e.pageY;}
+    
     function moveCursor() {
         requestAnimationFrame(moveCursor);
         mouse.style.top = (currentPosY += (posY - currentPosY) / delay) + 'px';
