@@ -402,7 +402,7 @@ body {
 /* button style */
 
 
-a {
+.button a {
     position: relative;
     padding: 10px 30px;
     display: block;
@@ -412,7 +412,7 @@ a {
     border-radius: 40px;
 }
   
-a span {
+.button a span {
     position: relative;
     color: #fff;
     font-size: 15px;
@@ -421,7 +421,7 @@ a span {
 }
 
   
-a .liquid {
+.button a .liquid {
     position: absolute;
     top: -80px;
     left: 0;
@@ -432,8 +432,8 @@ a .liquid {
     transition: .5s;
 }
   
-a .liquid::after,
-a .liquid::before {
+.button a .liquid::after,
+.button a .liquid::before {
     content: '';
     width: 200%;
     height: 200%;
@@ -444,25 +444,23 @@ a .liquid::before {
     background: #eff0ff83;
 }
   
-a .liquid::before {
-    
+.button a .liquid::before {   
     border-radius: 45%;
     background: #eff0ff83;
     animation: animate 5s linear infinite;
 }
   
-a .liquid::after {
-    
+.button a .liquid::after {
     border-radius: 40%;
     background: #eff0ff83;
     animation: animate 10s linear infinite;
 }
   
-a:hover .liquid{
+.button a:hover .liquid{
     top: -120px;
 }
 
-a:hover{
+.button a:hover{
     text-decoration:none
 }
   
