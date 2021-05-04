@@ -163,7 +163,7 @@ body {
 }
 
 
-#work, #work1, #work2 {
+.work{
     padding-top: 2%;
     padding-bottom: 2%;
     margin-bottom:10%;
@@ -211,21 +211,16 @@ body {
 
 /* ANIMATION ON WORKS */
 
-/* #work:hover{
-    transform:scale(1.01,1.01);
-    box-shadow: 0px 0px 20px 2px #E5E2E2;
-    animation: bounce 1s ease;
-} */
 
-#work:hover{
-    /* transform:scale(1.01,1.01); */
+.work:hover{
     box-shadow: 0px 0px 20px 2px #E5E2E2;
     animation: expand 1s ease forwards;
 }
 
-#work:hover #work-text{
+.work:hover .work-text{
     animation: bounce 1s ease;
 }
+
 
 @keyframes bounce {
     0% {transform: translateY(0);}
