@@ -207,6 +207,15 @@ body {
     text-decoration: none;
 }
 
+/* ANIMATION ON WORKS */
+
+#work:hover{
+    transform:scale(1.01,1.01);
+    box-shadow: 0px 0px 20px 2px #E5E2E2;
+}
+
+/* document.getElementById(name1).classList.add('animate__animated animate__pulse'); */
+
 /* WORKS PAGE END */
 
 /* INDIVIDUAL WORK START*/

@@ -1,21 +1,4 @@
-// WORKS PAGE
 
-function workHover(name) {
-    var work = document.getElementById(name);
-    work.style.transform = "scale(1.01, 1.01)";
-    work.style.boxShadow = "0px 0px 20px 2px #E5E2E2";
-
-  }
-  
-  function workLeave(name) {
-    var work = document.getElementById(name);
-    work.style.transform = "scale(1, 1)";
-    work.style.boxShadow = "none";
-  }
-  
-// WORKS PAGE END
-  
-  
 // MOUSE
   
   
