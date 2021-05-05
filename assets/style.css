@@ -489,11 +489,13 @@ body {
 }
 
 .social-container h2{
-    color:#E37575;
-    font-size: 40px;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 45px;
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     line-height: 175%;
+    text-shadow: 2px 2px #e37575;
+
 }
 
 .social-container h3{
