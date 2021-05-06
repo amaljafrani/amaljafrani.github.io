@@ -504,7 +504,13 @@ body {
 
 /* TEXT ONLY */
 
-
+.resume{
+    padding-top:5%;
+    height:800px;
+    padding-right:10%;
+    padding-left:10%;
+    padding-bottom:5%;
+}
 
 
 /* CONTACT PAGE END */
