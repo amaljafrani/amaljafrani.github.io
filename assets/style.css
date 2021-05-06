@@ -472,53 +472,35 @@ body {
 /* CONTACT PAGE START */
 
 .social-container{
-    margin-bottom:5%;
-    margin-top: 5%;
     border-radius: 10px;
-    padding:3%;
+    /* margin-right:50%; */
 }
 
-.social-container h1{
-    color:black;
-    font-size: 40px;
-    font-weight: 200;
-    letter-spacing: 3px;
-    line-height: 175%;
-    padding-bottom:5%;
-    text-align:center;
-}
-
-.social-container h2{
-    color: rgba(255, 255, 255, 0.623);
-    font-size: 45px;
-    font-weight: 700;
-    letter-spacing: 5px;
-    line-height: 175%;
-    text-shadow: 2px 2px #e37575;
-
-}
-
-.social-container h3{
-    color:#E37575;
-    font-size: 40px;
-    font-weight: 300;
-    letter-spacing: 3px;
-    line-height: 175%;
-}
-
-.social-container span{
-    font-style:italic;
-    animation: blinker .5s infinite ease-in-out alternate;
-}
-
-@keyframes blinker {
-    from {opacity: 1.0;}
-    to {opacity: 0.5;}
+.social-container .fa {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size:20px;
   }
 
-/* input[type=image]:hover {
-    opacity:.5;
-} */
+.social-container .fa:hover {
+    background: transparent;
+    /* text-decoration:none; */
+    background: -webkit-linear-gradient(#FDDD8B, #E37575);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-container .fa-envelope {
+    background: transparent;
+    color: black;
+}
+
+.social-container .fa-linkedin{
+    background: transparent;
+    color: black;
+}
+
 
 /* TEXT ONLY */
 
