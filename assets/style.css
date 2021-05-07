@@ -469,7 +469,7 @@ body {
 
 /* INDIVIDUAL WORK END */
 
-/* CONTACT PAGE START */
+/* CONTACT BUTTONS */
 
 .social-container{
     border-radius: 10px;
@@ -500,9 +500,9 @@ body {
     background: transparent;
     color: black;
 }
+/* CONTACT SYMBOLS END */
 
-
-/* TEXT ONLY */
+/* RESUME */
 
 .resume{
     padding-top:5%;
@@ -511,10 +511,6 @@ body {
     padding-left:10%;
     padding-bottom:5%;
 }
-
-
-/* CONTACT PAGE END */
-
 
 /*navigation bar*/
 .navigation {
