@@ -1,5 +1,6 @@
 // HOME PAGE START
 
+
 window.onload = function(){
   var timer = setTimeout("type()", 0)
   }
@@ -126,3 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
     moveCursor();
 });
+
+AOS.init({
+  duration: 2000,
+})
