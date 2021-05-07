@@ -129,5 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 AOS.init({
-  duration: 2000,
+  duration: 900,
+  easing: 'ease-in-quad',
+  delay: 300,
 })
