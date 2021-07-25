@@ -486,7 +486,7 @@ body {
 .social-container .fa:hover {
     background: transparent;
     /* text-decoration:none; */
-    background: -webkit-linear-gradient(#FDDD8B, #E37575);
+    background: -webkit-linear-gradient(#FDDD8B, #fa5959);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
