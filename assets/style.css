@@ -114,14 +114,28 @@ body {
 
 /* skills */
 .skill-background{
-    background-color: #F6F4F4;
+    background: -webkit-linear-gradient(-90deg, #FFFFFF, #ffffff23);
     margin-right: 0;
     margin-left:0;
     padding-top: 1%;
     padding-bottom: 5%;
     margin-bottom: 0;
     margin-top: 0;
+    animation: backgroundColorPalette 5s ease alternate infinite;
 }
+
+@keyframes backgroundColorPalette {
+    0%{
+        background-color: #F7D7D7;
+    }
+    50%{
+        background-color: #FFDBC1;
+    }
+    100%{
+        background-color: #FEEFC9;
+    }
+}
+
 
 .container-skills {
     margin-left: 10%;
