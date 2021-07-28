@@ -114,13 +114,17 @@ body {
 
 /* skills */
 .skill-background{
-    background: -webkit-linear-gradient(-90deg, #FFFFFF, #ffffff23);
+    background: -webkit-linear-gradient(-90deg, #FFFFFF, transparent);
     margin-right: 0;
     margin-left:0;
     padding-top: 1%;
     padding-bottom: 5%;
     margin-bottom: 0;
     margin-top: 0;
+    animation: backgroundColorPalette 5s ease alternate infinite;
+}
+
+.home-nav{
     animation: backgroundColorPalette 5s ease alternate infinite;
 }
 
